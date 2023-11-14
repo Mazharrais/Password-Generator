@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(69, 95, 52);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.main-container{
+   
+    padding: 50px;
+    border: 2px solid rgba(128, 201, 33, 0.616);
+    margin-top: 150px;
+    height: 55vh;
+    width: 25vw;
+    position: relative;
+}
+.heading{
+    font-size: 25px;
+    color: rgb(216, 202, 11);
+    position: absolute;
+    top: 2px;
+}
+.input-pass{
+    position: absolute;
+    top: 70px;
+    left: 48px;
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+    text-decoration: overline;
+}
+.pic{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 170px;
+}
+.heading-text{
+    position: absolute;
+    margin-top: 195px;
+    
+}
+.list{
+    position: absolute;
+    margin-top: 260px;
+    left: 25px;
+    color: rgb(29, 26, 26);
+    font-weight: bolder;
+    
+}
+.list-1{
+    position: absolute;
+    left: 40px;
+    bottom: 135px;
+}
+.list-2{
+    position: absolute;
+    left: 40px;
+    bottom: 105px;
+}
+.list-5{
+    padding-right: 25px;
+}
+.btn-1{
+    position: absolute;
+    bottom: 35px;
+    left: 145px;
+    border-radius: 7px;
+    width: 185px;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+.btn-2{
+    position: absolute;
+    margin-top: 98px;
+    left: 145px;
+    border-radius: 7px;
+    width: 185px;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
