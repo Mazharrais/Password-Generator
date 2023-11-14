@@ -1,7 +1,10 @@
 var pass = "AaBbCcDdEe@FfGgHh%IiJjKk$LlMm_Nn12Oo34PpQq45RrSsTt67UuVv89WwXx0YyZz";
 var regix = /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,16}$/;
-var main = document.getElementById("fun-text")
+var main = document.getElementById("fun-text");
+var place = document.getElementById("input");
 var saveValid;
+
+
 function genPassword(){
 var savePass = "";
 for(var i=0; i<pass.length; i++){
@@ -9,12 +12,16 @@ for(var i=0; i<pass.length; i++){
 
 savePass += pass[ranPass];
 if(savePass.length>7 && savePass.length<10){
- main.innerHTML = savePass;
+ place.value = savePass;
+ console.log(savePass);
 }
 
 
 }
+
+
 saveValid = savePass
+validPassword()
 }
 
 
@@ -24,5 +31,14 @@ if(regix.test(saveValid)){
 }else{
     console.log("false");
 }
+
+}
+function showPassword(){
+    console.log(place.type);
+    if(place.type === "password"){
+        place.type = "text";
+    }else if(place.type === "text"){
+        place.type = "password";
+    }
 
 }

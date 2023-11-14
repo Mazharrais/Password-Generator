@@ -10,26 +10,26 @@
     
 
     <div class="main-container">
-       <h1 class="heading">Password Generator & Validation</h1>
-       <input class="input-pass" type="password" placeholder="Password">
-       <img class="pic" width="17px" src="images/view.png" alt="">
-       <h2 class="heading-text">Password must Contain...</h2>
-       <ul class="list">
-        <li class="list-1">At least 8 characters length</li>
-        <br>
-        <li class="list-2">At least 1 number(0 to 9)</li>
-        <br>
-        <li class="list-3">At least 1 LowerCase Letter (a to z)</li>
-        <br>
-        <li class="list-4">At least 1 UpperCase Letter (A to Z)</li>
-        <br>
-        <li class="list-5">At least 1 special character (!-$)</li>
-        
-       </ul>
+     
         <button class="btn-1" id="btn" onclick="genPassword()">Generate Password</button>
         <p id="fun-text"></p>
  
-
+        <h1 class="heading">Password Generator & Validation</h1>
+        <input id="input" class="input-pass" type="text" placeholder="Password">
+        <img class="pic" width="17px" src="images/view.png" alt="" onclick="showPassword()">
+        <h2 class="heading-text">Password must Contain...</h2>
+        <ul class="list">
+         <li class="list-1">At least 8 characters length</li>
+         <br>
+         <li class="list-2">At least 1 number(0 to 9)</li>
+         <br>
+         <li class="list-3">At least 1 LowerCase Letter (a to z)</li>
+         <br>
+         <li class="list-4">At least 1 UpperCase Letter (A to Z)</li>
+         <br>
+         <li class="list-5">At least 1 special character (!-$)</li>
+         
+        </ul>
 
    
     <button class="btn-2" id="btn" onclick="validPassword()">Validation Password</button>
