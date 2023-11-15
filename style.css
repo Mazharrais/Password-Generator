@@ -13,6 +13,15 @@ body{
     width: 25vw;
     position: relative;
 }
+#fun-text{
+    position: absolute;
+    z-index: 1;
+    color: rgb(216, 202, 11);
+    margin-top: 100px;
+    padding-left: 155px;
+    font-size: 25px;
+}
+
 .heading{
     font-size: 25px;
     color: rgb(216, 202, 11);
@@ -30,7 +39,7 @@ body{
 }
 .pic{
     position: absolute;
-    margin-top:20px;
+    margin-top:35px;
     margin-left: 170px;
 }
 .heading-text{
@@ -71,7 +80,7 @@ body{
 }
 .btn-2{
     position: absolute;
-    margin-top: 98px;
+    margin-top: 135px;
     left: 145px;
     border-radius: 7px;
     width: 185px;

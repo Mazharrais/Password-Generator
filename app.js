@@ -27,9 +27,9 @@ validPassword()
 
 function validPassword(){
 if(regix.test(saveValid)){
-    console.log("True")
+   main.innerHTML = "strong"
 }else{
-    console.log("false");
+    main.innerHTML = "weak"
 }
 
 }
